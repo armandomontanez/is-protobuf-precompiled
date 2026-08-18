@@ -91,17 +91,17 @@ def update_status(status, results, versions):
 def update_readme(repo_root, status):
     readme_file = repo_root / "README.md"
     lines = []
-    lines.append("| Language | Status | First precompiled | Versions |")
-    lines.append("|----------|--------|-------------------|----------|")
+    lines.append("| Language | Precompiled | First precompiled | Versions |")
+    lines.append("|----------|-------------|-------------------|----------|")
 
     for lang, info in LANGUAGES.items():
         entry = status["languages"].get(lang, {})
         current = entry.get("current_status", "unknown")
 
         if current == "precompiled":
-            status_str = "precompiled :green_check_mark:"
+            status_str = ":white_check_mark:"
         else:
-            status_str = "source :x:"
+            status_str = ":x:"
 
         first_date = entry.get("first_precompiled_date") or "-"
         versions = entry.get("first_precompiled_versions")
