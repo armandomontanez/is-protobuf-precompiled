@@ -107,9 +107,9 @@ def update_readme(repo_root, status):
         versions = entry.get("first_precompiled_versions")
         if versions:
             parts = [
-                f"protobuf {versions.get('protobuf', '?')}",
-                f"{info['rules_dep']} {versions.get(info['rules_dep'], '?')}",
                 f"Bazel {versions.get('bazel', '?')}",
+                f"`protobuf@{versions.get('protobuf', '?')}`",
+                f"`{info['rules_dep']}@{versions.get(info['rules_dep'], '?')}`",
             ]
             ver_str = ", ".join(parts)
         else:
