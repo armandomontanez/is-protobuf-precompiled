@@ -9,7 +9,7 @@ projects.
 | Language | Precompiled | First precompiled | Versions |
 |----------|-------------|-------------------|----------|
 | C++ | :x: | - | - |
-| Java | :white_check_mark: | 2026-08-18 | protobuf 35.1, rules_java 9.3.0, Bazel 9.2.0 |
+| Java | :white_check_mark: | 2026-03-19 | protobuf 34.1, rules_java 9.0.3, Bazel 9.0.0 |
 | Python | :x: | - | - |
 
 _Last updated: 2026-08-18_
