@@ -1,0 +1,11 @@
+load("@rules_java//java:defs.bzl", "java_test")
+
+java_test(
+    name = "hello_proto",
+    srcs = ["HelloProto.java"],
+    test_class = "HelloProto",
+    deps = [
+        "//protos:my_proto_java",
+        "@protobuf//java/core",
+    ],
+)

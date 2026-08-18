@@ -1,0 +1,7 @@
+load("@rules_python//python:defs.bzl", "py_test")
+
+py_test(
+    name = "hello_proto",
+    srcs = ["hello_proto.py"],
+    deps = ["//protos:my_proto_py"],
+)
