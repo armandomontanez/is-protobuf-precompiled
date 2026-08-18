@@ -4,3 +4,8 @@ py_binary(
     name = "check_protoc_status",
     srcs = ["check_protoc_status.py"],
 )
+
+py_binary(
+    name = "find_earliest",
+    srcs = ["find_earliest.py"],
+)
