@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package is_protoc_precompiled.protos;
+
+import "google/protobuf/any.proto";
+
+message MyMessage {
+    google.protobuf.Any content = 1;
+}
