@@ -9,10 +9,10 @@ projects.
 | Language | Precompiled | First precompiled | Versions |
 |----------|-------------|-------------------|----------|
 | C++ | :x: | - | - |
-| Java | :white_check_mark: | 2026-03-19 | protobuf 34.1, rules_java 9.0.3, Bazel 9.0.0 |
+| Java | :white_check_mark: | 2026-03-19 | Bazel 9.0.0, `protobuf@34.1`, `rules_java@9.0.3` |
 | Python | :x: | - | - |
 
-_Last updated: 2026-08-18_
+_Last updated: 2026-08-19_
 
 ## How it works
 
