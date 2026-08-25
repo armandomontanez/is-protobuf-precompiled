@@ -32,7 +32,7 @@ def check_language(repo_root, lang):
     query = f'somepath("{target}", "{source_target}")'
 
     result = subprocess.run(
-        ["bazel", "cquery", query],
+        ["bazelisk", "cquery", query],
         capture_output=True,
         text=True,
         cwd=repo_root,
