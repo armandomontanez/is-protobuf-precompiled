@@ -5,6 +5,7 @@ import json
 import re
 import subprocess
 from datetime import timezone, datetime
+import os
 from pathlib import Path
 
 LANGUAGES = {
@@ -126,6 +127,9 @@ def update_readme(repo_root, status):
 
 
 def main():
+    if "BUILD_WORKING_DIRECTORY" in os.environ:
+        os.chdir(os.environ["BUILD_WORKING_DIRECTORY"])
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--project-root",
