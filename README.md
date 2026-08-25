@@ -12,7 +12,7 @@ projects.
 | Java | :white_check_mark: | 2026-03-19 | Bazel 9.0.0, `protobuf@34.1`, `rules_java@9.0.3` |
 | Python | :x: | - | - |
 
-_Last updated: 2026-08-20_
+_Last updated: 2026-08-25_
 
 ## How it works
 
