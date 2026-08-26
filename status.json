@@ -1,7 +1,7 @@
 {
   "last_updated": "2026-08-26",
   "current_versions": {
-    "protobuf": "35.1",
+    "protobuf": "36.0",
     "rules_cc": "0.2.22",
     "rules_java": "9.9.0",
     "rules_python": "2.3.2",
