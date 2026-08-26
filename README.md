@@ -1,8 +1,8 @@
 # Is protobuf precompiled?
 
-This repo tracks whether or not [Protobuf's](https://protobuf.dev/) `protoc`
-tool is available as a precompiled binary in [Bazel](https://bazel.build/)
-projects.
+This repo tracks whether or not [Protobuf](https://protobuf.dev/) can be used in
+[Bazel](https://bazel.build/) projects without depending on a compiled-from-source
+version of the protobuf libraries.
 
 ## Status
 
@@ -22,7 +22,8 @@ rules_python) and the Bazel version itself. On every push to `main`, a CI
 workflow runs `bazel cquery somepath(...)` to determine whether each language's
 proto target has a dependency path to `@protobuf//src/google/protobuf` (the
 source tree). If a path exists, protoc is being compiled from source. If no path
-exists, a precompiled protoc binary is being used.
+exists, a precompiled protoc binary is exclusively being used. As dependencies are
+rolled, the status table is updated.
 
 ## Known issues
 
