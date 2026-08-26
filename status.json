@@ -4,7 +4,7 @@
     "protobuf": "35.1",
     "rules_cc": "0.2.22",
     "rules_java": "9.9.0",
-    "rules_python": "2.3.1",
+    "rules_python": "2.3.2",
     "bazel": "9.2.0"
   },
   "languages": {
