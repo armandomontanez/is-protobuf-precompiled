@@ -25,6 +25,17 @@ source tree). If a path exists, protoc is being compiled from source. If no path
 exists, a precompiled protoc binary is exclusively being used. As dependencies are
 rolled, the status table is updated.
 
+## Try it yourself!
+
+Just clone the repo and run a cquery to see if there's a path from a language-specific
+library to the protobuf sources:
+
+| Language | Command |
+|----------|---------|
+| C++ | `$ bazelisk cquery 'somepath("//cc:hello_proto", "@protobuf//src/google/protobuf")'` |
+| Java | `$ bazelisk cquery 'somepath("//java:hello_proto", "@protobuf//src/google/protobuf")'` |
+| Python | `$ bazelisk cquery 'somepath("//python:hello_proto", "@protobuf//src/google/protobuf")'` |
+
 ## Known issues
 
 ### 36.0, 36.0-rc1, 36.0-rc2
