@@ -12,7 +12,7 @@ version of the protobuf libraries.
 | Java | :white_check_mark: | 2026-03-19 | Bazel 9.0.0, `protobuf@34.1`, `rules_java@9.0.3` |
 | Python | :x: | - | - |
 
-_Last updated: 2026-08-27_
+_Last updated: 2026-09-03_
 
 ## How it works
 
