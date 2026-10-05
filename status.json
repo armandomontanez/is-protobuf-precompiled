@@ -1,17 +1,23 @@
 {
-  "last_updated": "2026-09-03",
+  "last_updated": "2026-10-05",
   "current_versions": {
     "protobuf": "36.1.bcr.1",
-    "rules_cc": "0.2.22",
+    "rules_cc": "0.2.25",
     "rules_java": "9.9.0",
     "rules_python": "2.3.2",
     "bazel": "9.2.0"
   },
   "languages": {
     "cc": {
-      "current_status": "source",
-      "first_precompiled_date": null,
-      "first_precompiled_versions": null,
+      "current_status": "precompiled",
+      "first_precompiled_date": "2026-10-05",
+      "first_precompiled_versions": {
+        "protobuf": "36.1.bcr.1",
+        "rules_cc": "0.2.25",
+        "rules_java": "9.9.0",
+        "rules_python": "2.3.2",
+        "bazel": "9.2.0"
+      },
       "regression_date": null,
       "regression_versions": null
     },
@@ -27,9 +33,15 @@
       "regression_versions": null
     },
     "python": {
-      "current_status": "source",
-      "first_precompiled_date": null,
-      "first_precompiled_versions": null,
+      "current_status": "precompiled",
+      "first_precompiled_date": "2026-10-05",
+      "first_precompiled_versions": {
+        "protobuf": "36.1.bcr.1",
+        "rules_cc": "0.2.25",
+        "rules_java": "9.9.0",
+        "rules_python": "2.3.2",
+        "bazel": "9.2.0"
+      },
       "regression_date": null,
       "regression_versions": null
     }

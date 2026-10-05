@@ -8,11 +8,11 @@ version of the protobuf libraries.
 
 | Language | Precompiled | First precompiled | Versions |
 |----------|-------------|-------------------|----------|
-| C++ | :x: | - | - |
+| C++ | :white_check_mark: | 2026-10-05 | Bazel 9.2.0, `protobuf@36.1.bcr.1`, `rules_cc@0.2.25` |
 | Java | :white_check_mark: | 2026-03-19 | Bazel 9.0.0, `protobuf@34.1`, `rules_java@9.0.3` |
-| Python | :x: | - | - |
+| Python | :white_check_mark: | 2026-10-05 | Bazel 9.2.0, `protobuf@36.1.bcr.1`, `rules_python@2.3.2` |
 
-_Last updated: 2026-09-03_
+_Last updated: 2026-10-05_
 
 ## How it works
 
