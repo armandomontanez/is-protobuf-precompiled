@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-19",
   "current_versions": {
-    "protobuf": "36.1.bcr.1",
+    "protobuf": "36.2",
     "rules_cc": "0.2.25",
     "rules_java": "9.9.0",
     "rules_python": "2.3.2",
@@ -9,7 +9,7 @@
   },
   "languages": {
     "cc": {
-      "current_status": "precompiled",
+      "current_status": "source",
       "first_precompiled_date": "2026-10-05",
       "first_precompiled_versions": {
         "protobuf": "36.1.bcr.1",
@@ -18,8 +18,14 @@
         "rules_python": "2.3.2",
         "bazel": "9.2.0"
       },
-      "regression_date": null,
-      "regression_versions": null
+      "regression_date": "2026-10-19",
+      "regression_versions": {
+        "protobuf": "36.2",
+        "rules_cc": "0.2.25",
+        "rules_java": "9.9.0",
+        "rules_python": "2.3.2",
+        "bazel": "9.2.0"
+      }
     },
     "java": {
       "current_status": "precompiled",
@@ -33,7 +39,7 @@
       "regression_versions": null
     },
     "python": {
-      "current_status": "precompiled",
+      "current_status": "source",
       "first_precompiled_date": "2026-10-05",
       "first_precompiled_versions": {
         "protobuf": "36.1.bcr.1",
@@ -42,8 +48,14 @@
         "rules_python": "2.3.2",
         "bazel": "9.2.0"
       },
-      "regression_date": null,
-      "regression_versions": null
+      "regression_date": "2026-10-19",
+      "regression_versions": {
+        "protobuf": "36.2",
+        "rules_cc": "0.2.25",
+        "rules_java": "9.9.0",
+        "rules_python": "2.3.2",
+        "bazel": "9.2.0"
+      }
     }
   }
 }
