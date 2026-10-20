@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v7
 
       - name: Set up Bazel
-        uses: bazel-contrib/setup-bazel@0.19.0
+        uses: bazel-contrib/setup-bazel@0.19.1
 
       - name: Check protoc status
         run: python3 scripts/check_protoc_status.py
