@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-28",
   "current_versions": {
     "protobuf": "36.2",
-    "rules_cc": "0.2.25",
+    "rules_cc": "0.2.27",
     "rules_java": "9.9.0",
     "rules_python": "2.4.5",
     "bazel": "9.2.0"
